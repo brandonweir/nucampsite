@@ -21,12 +21,6 @@ h2 {
 }
 
 header {
-    padding: 30px;
-    background-image: linear-gradient(to right, $color-secondary, $color-primary, $color-dark);
-    color: white;
-}
-
-header {
     h2 {
         color: $color-pale;
     }
@@ -37,6 +31,12 @@ footer {
     padding: 20px 0;
 }
 
+header {
+    padding: 30px;
+    background-image: linear-gradient(to right, $color-secondary, $color-primary, $color-dark);
+    color: white;
+}
+
 .row-content {
     padding: 50px 0;
     border-bottom: 1px ridge;
@@ -45,6 +45,14 @@ footer {
 
 .navbar {
     background-color: $color-mid;
+}
+
+.carousel {
+    border: solid $color-secondary;
+}
+
+.carousel-caption {
+    background-color: $color-black-transparent;
 }
 
 /* .card-header {
@@ -61,10 +69,3 @@ footer {
 .accordion-button {
     background-color: #d3d3d3;
   }
-
-.carousel-caption {
-    background-color: $color-black-transparent;
-}
-.carousel {
-    border: solid $color-secondary;
-}
