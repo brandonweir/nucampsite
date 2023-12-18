@@ -30,7 +30,6 @@
                     <h2>a better way to camp</h2>
                 </div>
                 <div class="col-md-4 col-xl-2 mt-4 text-nowrap">
-                    <!-- <a class="btn btn-info text-white" href="#reserveForm" role="button">Reserve Campsite</a> -->
                     <button type="button" class="btn btn-info text-white text-nowrap" data-bs-toggle="modal" data-bs-target="#reserveModal">Reserve Campsite</button>
                 </div>
             </div>
@@ -85,8 +84,8 @@
                                 </div>
                                 <div class="col">
                                     <div class="form-check mb-3">
-                                        <input class="form-check-input" type="checkbox">
-                                        <label class="form-check-label"> Remember me</label>
+                                        <input class="form-check-input" type="checkbox" id="rememberMe">
+                                        <label class="form-check-label" for="rememberMe"> Remember me</label>
                                     </div>
                                 </div>
                             </div>
@@ -141,7 +140,7 @@
                             </div>
                             <div class="row mb-3">
                                 <div class="col-sm-6 col-form-label">
-                                    <button class="btn btn-dark data-bs-dismiss" type="submit" name="search" id="search">Cancel</button>
+                                    <button class="btn btn-dark data-bs-dismiss" type="submit" name="cancel" id="cancel">Cancel</button>
                                     <button class="btn btn-primary" type="submit" name="search" id="search">Search</button>
                                 </div>
                             </div>
@@ -200,7 +199,7 @@
         </section>
         
     	<!-- discover section -->
-        <section class="row row-content align-items-center" class="d-none d-sm-block">
+        <section class="row row-content align-items-center">
             <div class="col-sm-4 col-md-3 order-sm-last">
                 <h2 class="text-sm-end">Discover & Review</h2>
             </div>
@@ -246,49 +245,6 @@
                 </div>
             </div>
         </section>
-
-        <!-- Card Form - Reserve Campsite
-        <section class="row row-content">
-            <div class="col-sm-9 mx-auto">
-                <div class="card">
-                    <h3 class="card-header bg-info text-white"  >Reserve a Campsite</h3>
-                    <div class="card-body">
-                        <form class="container" id="reserveForm">
-                            <div class="row mb-3">
-                                <div class="col-sm-6 col-form-label">
-                                    <label for="numberCampers">Number of Campers</label>
-                                </div>
-                                <div class="col-sm-6">
-                                    <select class="form-select" name="numberCampers" id="numberCampers">
-                                        <option value="Select...">Select...</option>
-                                        <option value="1">1</option>
-                                        <option value="2">2</option>
-                                        <option value="3">3</option>
-                                        <option value="4">4</option>
-                                        <option value="5">5</option>
-                                        <option value="6">6</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="row mb-3">
-                                <div class="col-sm-6 col-form-label">
-                                    <label for="date">Date</label>
-                                </div>
-                                <div class="col-sm-6">
-                                    <input class="form-control" type="date" name="date" id="date" placeholder="Date">
-                                </div>
-                            </div>
-                            <div class="row mb-3">
-                                <div class="col-sm-6 col-form-label">
-                                    <label for="search"></label>
-                                    <button class="btn btn-primary" type="submit" name="search" id="search">Search</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </section> -->
 	</main>
 
     <!-- footer -->
